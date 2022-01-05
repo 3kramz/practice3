@@ -55,10 +55,13 @@ h1{
     font-size: 60px;
     font-weight: 900;
 }
+p{
+    font-size: 18px;
+}
 .slide1 p {
     margin-top: 40px;
 }
-.slide1 p a{
+.whiteBTN{
     text-decoration: none;
     padding:10px 30px;
     height: 10%;
@@ -71,6 +74,19 @@ h1{
     border-radius: 2px;
     
 }
+.pinkBtn{
+    text-decoration: none;
+    padding:10px 30px;
+    height: 10%;
+    margin-right: 10px;
+    width: 30%;
+    background-color: rgb(248, 34, 116);
+    color: white ;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 2px;
+    
+}
 .slide2{
     margin-left: 200px;
     margin-top: -154px;
@@ -78,4 +94,13 @@ h1{
 .slide2 img{
     height: 590px;
 
+}
+.about img{
+    
+    width: 600px;
+}
+.aboutImg{
+    margin-left: -60px;
+    margin-top: -269px;
+    width: 700px;
 }

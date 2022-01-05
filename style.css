@@ -4,10 +4,13 @@ body{
     font-family: 'Signika', sans-serif;
 }
 .pink{
-    color: rgb(248, 34, 116);
+    color: #ff0039;
 }
 .white{
     color: #fff;
+}
+.black{
+    color: #414141;
 }
 .flex{
     display: flex;
@@ -15,7 +18,7 @@ body{
 .banner{
     height:100vh;
     width:100vw;
-    background-color: rgb(248, 34, 116);
+    background-image: linear-gradient(75deg, #fd466e, #d60935);
 }
 nav{
     width: 100%;
@@ -35,13 +38,13 @@ nav{
     text-decoration: none;
     padding:  18px ;
     margin-top:0px;
-    color: rgb(29, 26, 26);
+    color: #414141;
     font-size: 17px;
     font-weight: 500;
 }
 .menu p a:hover{
-    color: rgb(248, 34, 116);
-    transition: .2s;
+    color: #ff0039;
+    
 }
 
 .half-width{
@@ -71,7 +74,7 @@ p{
     margin-right: 10px;
     width: 30%;
     background-color: white;
-    color: rgb(248, 34, 116);
+    color: #ff0039;
     font-size: 20px;
     font-weight: 500;
     border-radius: 2px;
@@ -83,7 +86,7 @@ p{
     height: 10%;
     margin-right: 10px;
     width: 30%;
-    background-color: rgb(248, 34, 116);
+    background-color: #ff0039;
     color: white ;
     font-size: 20px;
     font-weight: 500;
@@ -116,6 +119,103 @@ p{
     margin-top: 30px;
     margin-right: 10px;
     padding: 30px;
-    color: rgb(248, 34, 116);
-    border: 2px solid rgb(248, 34, 116);
+    color: #ff0039;
+    border: 2px solid #ff0039;
+}
+.ads{
+    width: 100%;
+    background-image: linear-gradient(75deg, #e7375d, #d60935);
+    display: flex;
+    justify-content: center;
+}
+.ads div{
+  margin-bottom: 40px;
+    width: 50%;
+}
+
+.ads h1{
+    margin-top: 0px;
+}
+.ads h4{
+    font-size: 20px;
+    padding-top: 20px;
+    color: #414141;
+}
+.ads p{
+    font-size: 23px;
+}
+.porrtxm{
+   width: 90%;
+   margin: 0 auto;
+   
+}
+.justyfy{
+    margin-bottom: 30px;
+    justify-content: space-between;
+ }
+.xitem1{
+    background-image: url(./image/1.jpg);
+    background-size: cover;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+}
+.xitem2{
+    background-image: url(./image/2.jpg);
+    background-size: cover;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+}
+.xitem3{
+    background-image: url(./image/3.jpg);
+    background-size: cover;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+}
+.xitem4{
+    background-image: url(./image/4.jpg);
+    background-size: cover;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+}
+.xitem5{
+    background-image: url(./image/5.jpg);
+    background-size: cover;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+}
+.xitem6{
+    background-image: url(./image/6.jpg);
+    background-size: cover;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+}
+
+.title {
+ background-color: rgba(247, 247, 247, 0.911);
+ width: 90%;
+ margin: 0 auto;
+ margin-top: 220px;
+ height: 60px;
+ border-radius: 5px;
+ box-shadow: 0px 10px 24px -5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 0px 10px 24px -5px rgba(0,0,0,0.71);
+-moz-box-shadow: 0px 10px 24px -5px rgba(0,0,0,0.71);
+ 
+}
+.title p{
+    padding-left:  10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #414141;
+}
+.title i{
+    margin-top: -5px;
+    font-size: 70px;
+    color: #ff0039;
 }
